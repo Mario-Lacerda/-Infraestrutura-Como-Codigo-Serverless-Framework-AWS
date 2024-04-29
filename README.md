@@ -1,29 +1,36 @@
-## Desafio Dio - API Node.js com Serverless Framework em ambiente AWS
+# Desafio Dio - API Node.js com Serverless Framework em ambiente AWS
 
-#### **CriarInfraestrutura como Código com Serverless Framework na AWS**
+### **CriarInfraestrutura como Código com Serverless Framework na AWS**
 
 Neste projeto vamos criar uma infraestrutra em nuvem AWS com API Gateway, DynamoDB, AWS Lambda e AWS CloudFormation utilizando o framework Serverless para o desenvolvimento baseada em Infraestrutura as a Code.
 
 
 
-**Objetivo:** Projetar e implementar uma infraestrutura como código usando o Serverless Framework na AWS.
+#### **Objetivo:** 
+
+##### Projetar e implementar uma infraestrutura como código usando o Serverless Framework na AWS.
 
 #### Etapas
 
-##### Pré requisitos: 
+#### Pré requisitos: 
 
  - possuir uma conta na AWS e instalar Node.js na máquina.
  - Instalar o AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 
-**Diretrizes:**
+#### **Diretrizes:**
 
 - Conceitos de Infraestrutura como Código:
+
   - Aprenda sobre os benefícios e práticas recomendadas da infraestrutura como código.
   - Entenda como o Serverless Framework simplifica o provisionamento e gerenciamento de infraestrutura na AWS.
-- Serverless Framework:
+
+- ##### Serverless Framework:
+
   - Explore os recursos e funcionalidades do Serverless Framework para implantar aplicativos sem servidor na AWS.
   - Compreenda como definir funções sem servidor, gerenciar eventos e configurar recursos de infraestrutura usando arquivos YAML.
-- Gerenciamento de Logs e Monitoramento:
+
+- ##### Gerenciamento de Logs e Monitoramento:
+
   - Investigue estratégias para gerenciar logs e monitorar aplicativos sem servidor para garantir confiabilidade e desempenho.
   - Aprenda a usar serviços da AWS como CloudWatch Logs e CloudWatch Metrics para rastrear e analisar dados de log e métricas.
 
@@ -71,7 +78,7 @@ serverless monitor
 
 **Resultado:** Monitora a função em tempo real e exibe métricas como uso de memória e duração da execução. Isso permite que você monitore o desempenho e a saúde da sua função.
 
-**Conclusão:**
+#### **Conclusão:**
 
 Este desafio prático fornece uma compreensão abrangente da infraestrutura como código com o Serverless Framework na AWS. Ao concluir este desafio, você será capaz de:
 
@@ -224,7 +231,7 @@ updateItem:
 
 
 
-#### O pré requisito para esse projeto foram:
+### O pré requisito para esse projeto foram:
 
 - Fazer uma conta no site da AWS: https://aws.amazon.com/pt/;
 - Instalar Node.js;
